@@ -1,0 +1,39 @@
+html {
+    font-family: $helvetica;
+}
+
+body {
+    background-color: $secondary;
+}
+
+h1 {
+    color: $primary;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.primary-btn {
+    @include button($primary, #fff, darkblue);
+}
+
+.secondary-btn {
+    @include button($primary, #fff, darkblue);
+}
+
+.border{
+    border: 3px dashed #ccc;
+    p{
+        color: $primary;
+    }
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+ul{
+    @extend .border;
+}
