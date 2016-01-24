@@ -41,28 +41,21 @@ body {
     text-align: center;
     transition: 1s;
     padding: 3em;
-    background-color: grey;
+    background-color: $grey;
     font-style: italic;
 }
     
 .btn-2 {
-    color: #fff;
+    color: $white;
     letter-spacing: 0;
 }
 
 .btn-2:hover,
 .btn-2:active {
-    color: darkgrey;
+    color: $darkgrey;
     letter-spacing: 5px;  
-    background: grey; 
-    background: -webkit-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Safari 5.1-6*/
-    background: -o-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Opera 11.1-12*/
-    background: -moz-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Fx 3.6-15*/
-    background: radial-gradient(rgba(255,255,255,1), rgba(128,128,128,0)); /*Standard*/
-    
-    -webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    background: darkgrey; 
+    background: radial-gradient(rgba(255,255,255,1), rgba(128,128,128,0));
+
     filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
 }
