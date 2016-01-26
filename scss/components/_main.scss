@@ -54,7 +54,7 @@ body {
 .btn-2:active {
     color: $darkgrey;
     letter-spacing: 5px;  
-    background: darkgrey; 
+    background: $darkgrey; 
     background: radial-gradient(rgba(255,255,255,1), rgba(128,128,128,0));
 
     filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));

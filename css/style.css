@@ -91,7 +91,7 @@ body {
 .btn-2:active {
   color: #A9A9A9;
   letter-spacing: 5px;
-  background: darkgrey;
+  background: #A9A9A9;
   background: radial-gradient(white, rgba(128, 128, 128, 0));
   -webkit-filter: drop-shadow(-10px 10px 6px rgba(0, 0, 0, 0.3));
           filter: drop-shadow(-10px 10px 6px rgba(0, 0, 0, 0.3));
