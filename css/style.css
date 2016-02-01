@@ -99,37 +99,4 @@ body {
           filter: drop-shadow(-10px 10px 6px rgba(0, 0, 0, 0.3));
 }
 
-/*
-    display: block;
-    font-size: 60px;
-    font-weight: bold;
-    margin: 0 auto;
-    position: relative;
-    text-decoration: none;
-    width: 100%;
-    text-align: center;
-    transition: 1s;
-    padding: 3em;
-    background-color: $grey;
-    font-style: italic;
-}
-
-/*
-.btn-2 {
-    color: $white;
-    letter-spacing: 0;
-}
-
-.btn-2:hover,
-.btn-2:active {
-    color: $darkgrey;
-    letter-spacing: 5px;  
-    background: $darkgrey; 
-    background: radial-gradient(rgba(255,255,255,1), rgba(128,128,128,0));
-
-    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-}
-
-*/
-
 /*# sourceMappingURL=style.css.map */
