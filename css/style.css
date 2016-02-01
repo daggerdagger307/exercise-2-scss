@@ -23,23 +23,6 @@ To use a mixin with arguments
 @include($arguments, $argument2, $argument3)
 
 */
-/*
-
-@mixin button ($background, $font, $hover){
-    background-color: $background;
-    padding: .5em 1em;
-    border-radius: 3px;
-    margin: 1em;
-    display: inline-block;
-    text-decoration: none;
-    transition: all 250ms ease-in-out;
-    color: $font;
-    &:hover {
-        background-color: $hover;
-        font-size: 1.1em;
-        box-shadow: 10px 10px 5px grey;
-    }
-} */
 @-ms-viewport {
   width: device-width;
   scale: 1;
