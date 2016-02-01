@@ -23,21 +23,27 @@ To use a mixin with arguments
 @include($arguments, $argument2, $argument3)
 
 */
-@-moz-viewport {
-  width: device-width;
-  scale: 1;
-}
+/*
 
+@mixin button ($background, $font, $hover){
+    background-color: $background;
+    padding: .5em 1em;
+    border-radius: 3px;
+    margin: 1em;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+    color: $font;
+    &:hover {
+        background-color: $hover;
+        font-size: 1.1em;
+        box-shadow: 10px 10px 5px grey;
+    }
+} */
 @-ms-viewport {
   width: device-width;
   scale: 1;
 }
-
-@-webkit-viewport {
-  width: device-width;
-  scale: 1;
-}
-
 @viewport {
   width: device-width;
   scale: 1;
@@ -80,15 +86,11 @@ body {
   padding: 3em;
   background-color: #aaa;
   font-style: italic;
-}
-
-.btn-2 {
   color: #fff;
   letter-spacing: 0;
 }
 
-.btn-2:hover,
-.btn-2:active {
+.btn:hover {
   color: #A9A9A9;
   letter-spacing: 5px;
   background: #A9A9A9;
@@ -96,5 +98,38 @@ body {
   -webkit-filter: drop-shadow(-10px 10px 6px rgba(0, 0, 0, 0.3));
           filter: drop-shadow(-10px 10px 6px rgba(0, 0, 0, 0.3));
 }
+
+/*
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+    padding: 3em;
+    background-color: $grey;
+    font-style: italic;
+}
+
+/*
+.btn-2 {
+    color: $white;
+    letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+    color: $darkgrey;
+    letter-spacing: 5px;  
+    background: $darkgrey; 
+    background: radial-gradient(rgba(255,255,255,1), rgba(128,128,128,0));
+
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+}
+
+*/
 
 /*# sourceMappingURL=style.css.map */

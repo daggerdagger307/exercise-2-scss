@@ -13,6 +13,8 @@ To use a mixin with arguments
 
 */
 
+/*
+
 @mixin button ($background, $font, $hover){
     background-color: $background;
     padding: .5em 1em;
@@ -26,5 +28,31 @@ To use a mixin with arguments
         background-color: $hover;
         font-size: 1.1em;
         box-shadow: 10px 10px 5px grey;
+    }
+} */
+
+@mixin fade ($background, $size, $weight, $color, $time){
+    display: block;
+    font-size: $size;
+    font-weight: $weight;
+    margin: 0 auto;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    transition: $time;
+    padding: 3em;
+    background-color: $background;
+    font-style: italic;
+    color: $color;
+    letter-spacing: 0;
+    
+    &:hover {
+    color: $darkgrey;
+    letter-spacing: 5px;  
+    background: $darkgrey; 
+    background: radial-gradient(rgba(255,255,255,1), rgba(128,128,128,0));
+
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));      
     }
 }
